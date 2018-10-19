@@ -128,7 +128,7 @@ def print_room(room):
 #if the length of the list of items for a room contains more than 0 items
 #then the list of items for the room will be printed
         print_room_items(room)
-    print("")
+
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
