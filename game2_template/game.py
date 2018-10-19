@@ -54,6 +54,7 @@ def print_room_items(room):
         pass
     else:
         print("There is " + list_of_items(room["items"]) + " here.")
+        print("")
 
 
 def print_inventory_items(items):
